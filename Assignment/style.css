@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #1a187a;
+}
+.navbar-brand{
+    margin-left: 26%;
+    padding-left: 10px;
+}
+
+.imageContainer{
+    height: 70vh;
+    border:solid;
+    
+}
+
+/* This class is in browseContainer */
+.bottompart{
+    margin-left: 80px;
+    column-gap: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catIcons{
+    padding: 2%;
+    margin-top: 3%;
+    padding-top: 40px;
+    display: flex;
+    gap: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    height: 128px;
+    min-width: 135px;
+    border-radius: 28px;
+    border: solid;
+}
+
+.images{
+    height: 30vh;
+    background-color: green;
+    border: none;
+    
+}
+
+.image{
+    /* width: 48%; 
+    height: 80%;
+    border: solid; */
+    overflow: hidden;
+    max-height: 100%;
+    width: 100%;
+
+}
+
+.carousel-item{
+    background-image: linear-gradient(45deg,blue, green);
+    
+    padding: 20px;
+    padding-left: 20%;
+    justify-content: center;
+}
+.catagories{
+    height: full;
+    width: 30%;
+}
+.icon{
+    height: 30%;
+    width: 30%;
+    border-radius: 20%;
+}
+
+.products{
+    gap:10%;
+}
+
+.cardlist{
+    /* padding-right: 700px;
+    padding-left: 220px; */
+    margin-top: 60px;
+    /* margin-bottom: -30px; */
+}
+
+@media(min-width: 768px){
+   .cardlist{
+    padding-right: 700px;
+    padding-left: 220px;
+    margin-top: 60px;
+    margin-bottom: -30px;
+}
+}
+.cards{
+    text-align: center;
+    justify-content: center;
+    padding: 3%;
+
+}
+.price{
+    font-weight: bold;
+    text-align: center;
+}
+/* .card{
+    justify-content: center;
+} */
+
+
+.bottombanner{
+    background-color: #958AD4;
+    display: flex;
+    column-gap: 2%;
+    /* margin: 20%; */
+    padding-left: -10%;
+    padding: 5%;
+    gap: 4%;
+    justify-content: center;
+}
